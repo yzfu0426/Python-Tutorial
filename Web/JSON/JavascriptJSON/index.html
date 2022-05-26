@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON EXAMPLE</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let companies = `[
+        {  "name": "Bloomberg",
+       "numberOfEmployees": 17000,
+       "ceo": "Mike Bloomberg",
+       "rating": 5.0},
+        {  "name": "Small Start Up",
+        "numberOfEmployees": 12,
+        "ceo": null,
+        "rating": 3.6}
+
+    ]`
+     console.log(JSON.parse(companies)[0].name)   
+    </script>
+</body>
+</html>
+
+//https://www.youtube.com/watch?v=iiADhChRriM&t=2s&ab_channel=WebDevSimplified

@@ -1,0 +1,11 @@
+[
+    {  "name": "Bloomberg",
+       "numberOfEmployees": 17000,
+       "ceo": "Mike Bloomberg",
+       "rating": 5.0},
+    {  "name": "Small Start Up",
+        "numberOfEmployees": 12,
+        "ceo": null,
+        "rating": 3.6}
+
+]
